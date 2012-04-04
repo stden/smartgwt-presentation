@@ -8,5 +8,13 @@
 	- Add properties for versions
 	- Add dependencies for gwt, smartgwt
 	- Add GWT plugin call (to be ignored by m2e)
+	- Adjust output defaultGoal, directory, finalName
 7. Configure Webapp
 	- Create src/main/webapp folder
+	- Google -> Web Toolkit Settings -> Web Application: Set webapp directory
+	- Google -> Web Toolkit Settings -> Web Toolkit: Use Web Toolkit
+8. Configure GWT App
+	- Add src/main/resources/presentation.html (adjust Title and javascript link)
+	- Add Presentation.gwt.xml
+	- Add Presentation.java
+	- Add web.xml (welcom-file = presentation.html)

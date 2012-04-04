@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='presentation'>
+
+    <inherits name="com.google.gwt.user.User" />
+    <inherits name="com.smartgwt.SmartGwt" />
+
+    <entry-point class='de.thomasletsch.smartgwt.client.Presentation' />
+
+    <source path='client' />
+
+    <set-property name="user.agent" value="gecko1_8" />
+
+    <inherits name='com.google.gwt.logging.Logging' />
+    <set-property name="gwt.logging.enabled" value="TRUE" />
+    <set-property name="gwt.logging.logLevel" value="INFO" />
+    <set-property name="gwt.logging.consoleHandler" value="ENABLED" />
+    <set-property name="gwt.logging.developmentModeHandler" value="ENABLED" />
+    <set-property name="gwt.logging.firebugHandler" value="ENABLED" />
+    <set-property name="gwt.logging.hasWidgetsHandler" value="DISABLED" />
+    <set-property name="gwt.logging.popupHandler" value="DISABLED" />
+    <set-property name="gwt.logging.systemHandler" value="ENABLED" />
+    <set-property name="gwt.logging.simpleRemoteHandler" value="DISABLED" />
+
+</module>
