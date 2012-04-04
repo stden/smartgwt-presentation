@@ -1,0 +1,12 @@
+1. New -> Maven -> New Maven Project (Default Artifact)
+2. Team -> Share Project -> Git
+	- Select .git and create new Repository
+3. Ignore .project, .classpath, target (through TortoiseGIT)
+4. Intial Checkin
+5. Delete default App.java and test, delete JUnit dep
+6. Adjust Maven pom:
+	- Add properties for versions
+	- Add dependencies for gwt, smartgwt
+	- Add GWT plugin call (to be ignored by m2e)
+7. Configure Webapp
+	- Create src/main/webapp folder
