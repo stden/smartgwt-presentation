@@ -18,3 +18,4 @@
 	- Add Presentation.gwt.xml
 	- Add Presentation.java
 	- Add web.xml (welcom-file = presentation.html)
+9. GWT complete => First Run as -> Webapplication
