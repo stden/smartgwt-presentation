@@ -3,6 +3,7 @@
 
     <inherits name="com.google.gwt.user.User" />
     <inherits name="com.smartgwt.SmartGwt" />
+    <inherits name="com.smartgwt.tools.SmartGwtTools" />
 
     <entry-point class='de.thomasletsch.smartgwt.client.Presentation' />
 
