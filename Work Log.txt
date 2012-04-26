@@ -2,7 +2,7 @@
 2. Team -> Share Project -> Git
 	- Select .git and create new Repository
 3. Ignore .project, .classpath, target (through TortoiseGIT)
-4. Intial Checkin
+4. Initial Checkin
 5. Delete default App.java and test, delete JUnit dep
 6. Adjust Maven pom:
 	- Add properties for versions
@@ -18,4 +18,33 @@
 	- Add Presentation.gwt.xml
 	- Add Presentation.java
 	- Add web.xml (welcom-file = presentation.html)
+
+# Beispiel Grid ...
+	
 9. GWT complete => First Run as -> Webapplication
+9a. Add Main Layout, Add empty grid
+10. Country Datasource
+	- Add CountryDS.java
+	- Add webapp/data/responses/country_*_rest.xml
+11. Add Country Grid in Presentation
+	- Fetch working
+12. Make Country Grid editable
+	- Update working (US only)
+13. Add "Add new country" button
+	- Add working (A1 only)
+
+# Beispiel Form ...
+
+14. Add Edit Form
+	- Add Form
+	- Add Grid onRecordClickHandler
+	- Add Save Button
+	- Update Form working
+
+# Beispiel ContinentDS...
+
+15. Add ContinentDS + continent_fetch_rest.xml
+16. Change continent Field to optionDS 
+	- Change CountryDS: remove value map
+	- Change form to contain only two fields (countryName, continent)
+	- Set SelectField properties for continent
