@@ -1,0 +1,23 @@
+<response>
+	<status>0</status>
+	<startRow>0</startRow>
+	<endRow>5</endRow>
+	<totalRows>5</totalRows>
+	<data>
+		<record>
+			<name>North America</name>
+		</record>
+		<record>
+			<name>Europe</name>
+		</record>
+		<record>
+			<name>South America</name>
+		</record>
+		<record>
+			<name>Australia/Oceania</name>
+		</record>
+		<record>
+			<name>Africa</name>
+		</record>
+	</data>
+</response>
