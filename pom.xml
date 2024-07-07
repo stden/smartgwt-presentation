@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.7</jdk.version>
-		<gwt.version>2.4.0</gwt.version>
+		<gwt.version>2.10.0</gwt.version>
 		<smartgwt.version>3.0</smartgwt.version>
 	</properties>
 
@@ -98,7 +98,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
